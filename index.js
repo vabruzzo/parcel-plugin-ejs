@@ -1,3 +1,3 @@
 module.exports = function(bundler) {
-  bundler.addAssetType('ejs', require.resolve('./EJSAsset.js'));
+  bundler.addAssetType('ejs', require.resolve('./src/EJSAsset.js'));
 };
