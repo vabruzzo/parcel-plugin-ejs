@@ -4,7 +4,7 @@
   "description": "a parcel plugin for ejs templates",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,10 @@
   "bugs": {
     "url": "https://github.com/thoughtbyte/parcel-plugin-ejs/issues"
   },
-  "homepage": "https://github.com/thoughtbyte/parcel-plugin-ejs#readme"
+  "homepage": "https://github.com/thoughtbyte/parcel-plugin-ejs#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "mocha": "^5.2.0",
+    "parcel-bundler": "^1.9.0"
+  }
 }
