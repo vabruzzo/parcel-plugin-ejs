@@ -28,7 +28,7 @@ class EJSAsset extends Asset {
       }
     }
 
-    return compiled();
+    return compiled;
   }
 }
 
